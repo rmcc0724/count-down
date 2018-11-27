@@ -1,11 +1,6 @@
 class Application extends React.Component {
-  constructor(props) { 
-  super(props);
-this.state = {count: ''};
-   this.countDown = this.countDown.bind(this);
-  }
 
-  countDown () {      
+countDown () {      
     var countDownDate = new Date("Dec 31, 2018 23:59:59").getTime();
     var now = new Date().getTime();
 var distance = countDownDate - now;
