@@ -1,10 +1,7 @@
-import React from ‘react’;
-import ReactDOM from ‘react-dom’;
-
 class Application extends React.Component {
   constructor(props) { 
   super(props);
-this.state = {count: 'value'};
+this.state = {count: ''};
    this.countDown = this.countDown.bind(this);
   }
 
