@@ -22,7 +22,7 @@ var newNow = days + "days " + hours + "h "
   
   render() {
 return (
-  {<div>Count Down to 2019!! {this.countDown()}</div>}
+  <div>Count Down to 2019!! {this.countDown()}</div>
       )
   };
 };
