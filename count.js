@@ -7,7 +7,7 @@ this.state = {count: 'value'};
   }
 
   countDown () {      
-    var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+    var countDownDate = new Date("Dec 31st, 2018 23:59:59").getTime();
     var now = new Date().getTime();
 var distance = countDownDate - now;
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
